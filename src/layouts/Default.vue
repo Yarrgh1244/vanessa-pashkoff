@@ -2,12 +2,9 @@
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header class="top-0 left-0 z-40 fixed w-full border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
-        <div>
-          <g-link v-if="theme === 'theme-light'" to="/" @click.native="scrollToTop">
-            <g-image src="../../static/logo.svg" class="w-40" alt="logo" />
-          </g-link>
-          <g-link v-else to="/" @click.native="scrollToTop">
-            <g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" />
+        <div> 
+          <g-link to="/" @click.native="scrollToTop">
+            <g-image src="../../static/vp-consulting-logo.png" class="w-60" alt="logo" />
           </g-link>
         </div>
         <div class="block lg:hidden">
@@ -20,29 +17,24 @@
           :class="isOpen ? 'block': 'hidden'"
           data-cypress="menu"
         >
-          <li class="mb-6 lg:mb-0">
+          <!--<li class="mb-6 lg:mb-0">
             <search-input />
           </li>
           <li>
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>
-          <li>
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="{ el: '#projects', offset: -25 }" class="text-copy-primary hover:text-gray-600" data-cypress="projects">Projects</a>
-            <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
-          </li>
+          </li>-->
           <li>
             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="{ el: '#about', offset: -90 }" class="text-copy-primary hover:text-gray-600" data-cypress="about">About</a>
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
           </li>
           <li>
+            <g-link to="/media" class="text-copy-primary hover:text-gray-600" data-cypress="media">Media</g-link>
+          </li>
+          <li>
+            <g-link to="/courses" class="text-copy-primary hover:text-gray-600" data-cypress="courses">Courses</g-link>         
+          <li>
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="{ el: '#contact', offset: -25 }" class="text-copy-primary hover:text-gray-600" data-cypress="contact">Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
-          </li>
-          <li>
-            <g-link to="/docs" class="text-copy-primary hover:text-gray-600" data-cypress="docs">Docs</g-link>
-          </li>
-          <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600" data-cypress="blog">Blog</g-link>
           </li>
         </ul>
       </nav>
@@ -52,7 +44,7 @@
       <slot/>
     </main>
 
-    <footer class="bg-green-700 text-white">
+    <footer class="bg-purple-700 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>
