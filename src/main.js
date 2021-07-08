@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
+import './assets/tailwind.css'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
