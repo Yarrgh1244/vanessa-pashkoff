@@ -3,13 +3,7 @@
   <div class="bg-splash bg-contain flex flex-col flex-grow overflow-hidden pt-12">
     <div class="container-inner mx-auto bg-white">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left mt-16">
-        <div class="leading-tight whitespace-nowrap">Vanessa Pashkoff</div>
-      </div>
-    </div>
-
-    <div class="container-inner mx-auto bg-white">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-      <div class="leading-tight whitespace-nowrap">Early Childhood Consultant</div>
+        <div class="leading-tight whitespace-nowrap">Early Childhood Consultant</div>
       </div>
     </div>
 
