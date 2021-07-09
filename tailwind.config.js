@@ -5,6 +5,15 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      backgroundImage: theme => ({
+       'splash': "url('/paint-bg.jpeg')",
+       'splash-2': "url('/bubble-wrap-bg.jpeg')",
+       'splash-3': "url('/paint-squirt-bg.jpeg')",
+       'splash-4': "url('/paint-finger-bg.jpeg')",
+       'splash-5': "url('/meeple-bg.jpeg')",
+      })
+    },
     screens: {
       sm: '640px',
       md: '768px',

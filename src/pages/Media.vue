@@ -1,17 +1,21 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto py-16">
-      <h2 class="text-4xl font-bold mb-16">Page Not Found</h2>
-      <h1 class="text-9xl font-bold">404</h1>
+    <div class="bg-splash-2 bg-contain flex flex-col flex-grow overflow-hidden pt-12">
+      <div class="container-inner mx-auto py-16 bg-white">
+        <h2 class="text-4xl font-bold mb-16">Media</h2>
+        <h1 class="text-2xl font-bold mb-16">The More We Get Together: Ep. 5 #theitsybitsyzoomcast</h1>
+          <div class="responsive-container">
+            <iframe class="responsive-iframe w-full h-full top-0 left-0 border-0" src="https://www.youtube.com/embed/tBr03gy-vgM" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>      
+      </div>
     </div>
-
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Page Not Found'
+    title: 'Media'
   }
 }
 </script>

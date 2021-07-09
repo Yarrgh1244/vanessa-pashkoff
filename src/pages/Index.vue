@@ -1,36 +1,28 @@
 <template>
   <Layout>
-    <div class="container-inner mx-auto">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left py-16 mt-8">
-        <div class="leading-tight">Vanessa&nbsp;Pashkoff</div>
+  <div class="bg-splash bg-contain flex flex-col flex-grow overflow-hidden pt-12">
+    <div class="container-inner mx-auto bg-white">
+      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left mt-16">
+        <div class="leading-tight whitespace-nowrap">Vanessa Pashkoff</div>
       </div>
     </div>
 
-    <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl"></p>
-
-      <div class="flex justify-between items-center py-6 hidden">
-        <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <g-image src="../../static/mind_map.svg" alt="browser" />
-        </div>
-        <div class="w-1/2 px-8 hidden sm:flex justify-end">
-          <g-image src="../../static/code_review.svg" alt="mobile" />
-        </div>
+    <div class="container-inner mx-auto bg-white">
+      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+      <div class="leading-tight whitespace-nowrap">Early Childhood Consultant</div>
       </div>
     </div>
 
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div id="about" style="position: relative; top: -40px; left: 0"/>
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative mt-8">
-        <h2 class="font-bold mb-6">Get to know me:</h2>
-
+      <div class="get-to-know-me container-inner mx-auto text-xl mb-32 relative mt-8  bg-white">
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
 
-        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
+        <div class="flex flex-col sm:flex-row justify-between items-center">
           <div><g-image src="../../static/vanessa-pashkoff.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">Vanessa Pashkoff has been in the field of early childhood education for over 14 years. She has worn many hats during her time in the field including classroom teacher, After-school Program Director, trainer and facilitator and is passionate about family engagement, open-ended learning and anti-bias anti-racist teaching practices. Vanessa is also the Program Specialist at MAAEYC (Massachusetts Association for the Education of Young Children) in which she works to support MAAEYC programs, committees and events. Vanessa is passionate about early childhood education and is an advocate for play. Please contact <a href="mailto:vpashkoff@gmail.com">Vanessa Pashkoff</a> for more information and inquiries.</div>
         </div>
       </div> <!-- end get-to-know me -->
     </div>
@@ -38,7 +30,7 @@
     <div class="overflow-x-hidden">
       <div id="contact" style="position: relative; top: -40px; left: 0"/>
       <div class="contact-me bg-background-secondary pt-16">
-        <div class="container-inner mx-auto text-xl pb-4 relative">
+        <div class="container-inner mx-auto text-xl pb-4 relative bg-white">
           <h2 class="font-bold mb-6">Contact me:</h2>
 
           <div class="absolute right-0 top-0" style="transform: translate(100%) rotate(180deg)">
@@ -76,14 +68,14 @@
               </div>
 
               <div class="flex justify-end w-full">
-                  <input type="submit" value="Submit" class="block bg-purple-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+                  <input type="submit" value="Submit" class="block bg-purple-700 hover:bg-purple-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
               </div>
           </form>
           </div>
         </div>
       </div> <!-- end contact-me -->
     </div>
-
+  </div>
   </Layout>
 </template>
 
