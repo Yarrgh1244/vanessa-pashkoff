@@ -4,7 +4,7 @@
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>        
           <g-link to="/" @click.native="scrollToTop">
-            <div class="text-4xl font-bold leading-tight whitespace-nowrap"><g-image src="../../static/vp-icon.png" class="w-14 object-left" alt="logo" style="float:left;" /><div class="h-12 pl-16">Vanessa Pashkoff</div></div>
+            <div class="text-4xl font-bold leading-tight whitespace-nowrap"><g-image src="../../static/vp-icon.png" class="w-14 object-left" alt="logo" style="float:left;" /><div class="h-12 pl-16 hover:text-gray-600">Vanessa Pashkoff</div></div>
           </g-link>
         </div>
         <div class="block lg:hidden">
