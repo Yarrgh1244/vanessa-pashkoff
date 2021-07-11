@@ -3,7 +3,7 @@
   <div class="bg-splash bg-contain flex flex-col flex-grow overflow-hidden pt-12">
     <div class="container-inner mx-auto bg-white">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left mt-16 content-center">
-        <div class="leading-tight whitespace-normal text-center min-w-max">Early Childhood Consultant</div>
+        <div class="leading-tight text-center sm:min-w-max">Early Childhood Consultant</div>
       </div>
     </div>
 
