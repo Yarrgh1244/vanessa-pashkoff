@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
