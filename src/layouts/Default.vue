@@ -31,7 +31,7 @@
             <g-link to="/media" class="text-copy-primary hover:text-gray-600" data-cypress="media">Media</g-link>
           </li>
           <li>
-            <g-link to="/courses" class="text-copy-primary hover:text-gray-600" data-cypress="courses">Courses</g-link>         
+            <g-link to="/workshops" class="text-copy-primary hover:text-gray-600" data-cypress="workshops">Workshops</g-link>         
           <li>
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="{ el: '#contact', offset: -25 }" class="text-copy-primary hover:text-gray-600" data-cypress="contact">Contact</a>
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
