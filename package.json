@@ -1,5 +1,5 @@
 {
-  "name": "andremadarang",
+  "name": "alexsmith",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -32,6 +32,7 @@
     "postcss": "^7.0.36",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
-    "vue-cli-plugin-tailwind": "~2.0.6"
+    "vue-cli-plugin-tailwind": "~2.0.6",
+    "vue-cli-plugin-vuetify": "~2.4.3"
   }
 }
