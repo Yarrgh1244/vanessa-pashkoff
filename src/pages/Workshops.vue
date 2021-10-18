@@ -8,12 +8,13 @@
           <ul class="mt-8">
             <li>Family Engagement and Partnership</li>
             <li>Emergent Literacy in Early Childhood Classrooms</li>
-            <li>AntI-Bias Education</li>
+            <li>Anti-Bias Education</li>
             <li>Storytelling and Story Acting with Young Children</li>
             <li>Loose Parts and Open Ended Provocations</li>
             <li>STEAM with Infants and Toddlers</li>
             <li>Play and Risk Taking</li>
             <li>Classroom Environments</li>
+            <li>Understanding and Offering Process Art</li>
           </ul>           
       </div>
     </div>
