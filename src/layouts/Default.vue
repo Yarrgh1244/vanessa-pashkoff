@@ -17,12 +17,6 @@
           :class="isOpen ? 'block': 'hidden'"
           data-cypress="menu"
         >
-          <!--<li class="mb-6 lg:mb-0">
-            <search-input />
-          </li>
-          <li>
-            <theme-switcher :theme="theme" @themeChanged="updateTheme" />
-          </li>-->
           <li>
             <a v-if="$route.path === '/'" href="/#about" v-scroll-to="{ el: '#about', offset: -90 }" class="text-copy-primary hover:text-gray-600" data-cypress="about">About</a>
             <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
