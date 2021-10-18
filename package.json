@@ -8,6 +8,8 @@
     "test": "./node_modules/.bin/cypress open"
   },
   "dependencies": {
+    "7": "^0.0.1",
+    "9": "^0.0.1",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@gridsome/plugin-sitemap": "^0.4.0",
@@ -15,10 +17,13 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "@gridsome/vue-remark": "^0.2.6",
     "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
     "axios": "^0.21.1",
     "gridsome": "^0.7.23",
     "gridsome-plugin-remark-shiki": "^0.6.0",
     "gridsome-plugin-rss": "^1.2.0",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "vue-fuse": "^3.0.2",
     "vue-scrollto": "^2.20.0"
   },
@@ -26,12 +31,9 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/vue-fontawesome": "^2.0.2",
-    "autoprefixer": "^9.8.6",
     "cypress": "^7.7.0",
     "gridsome-plugin-tailwindcss": "^3.0.1",
-    "postcss": "^7.0.36",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
     "vue-cli-plugin-tailwind": "~2.0.6",
     "vue-cli-plugin-vuetify": "~2.4.3"
   }
