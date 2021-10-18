@@ -31,7 +31,7 @@
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <p class="mb-12">Use this form to contact me for any educational or consulting needs.</p>
+          <p class="mb-12">Please use this form to contact me regarding any workshop inquiries or consulting needs. I look forward to hearing from you!</p>
 
           <div class="text-lg sm:text-lg mb-16">
             <form action="https://formspree.io/f/xdoydqqq" method="POST" class="mb-12">
