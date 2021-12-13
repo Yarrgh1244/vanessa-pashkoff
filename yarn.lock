@@ -9619,9 +9619,9 @@ vscode-textmate@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npmjs.org/vscode-textmate/-/vscode-textmate-5.2.0.tgz"
 
-vue-cli-plugin-tailwind@~2.0.6:
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/vue-cli-plugin-tailwind/-/vue-cli-plugin-tailwind-2.0.6.tgz"
+vue-cli-plugin-tailwind@~2.2.18:
+  version "2.2.18"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tailwind/-/vue-cli-plugin-tailwind-2.2.18.tgz#24608cad73c2bf87a561242814e17ab70a7b7e95"
 
 vue-cli-plugin-vuetify@~2.4.3:
   version "2.4.3"
