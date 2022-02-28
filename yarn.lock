@@ -8272,15 +8272,11 @@ semver@^6.0.0, semver@^6.1.0, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
 
-semver@^7.1.2:
+semver@^7.1.2, semver@^7.3.2:
   version "7.3.5"
   resolved "https://registry.npmjs.org/semver/-/semver-7.3.5.tgz"
   dependencies:
     lru-cache "^6.0.0"
-
-semver@^7.3.2:
-  version "7.3.2"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.2.tgz"
 
 send@0.17.1:
   version "0.17.1"
@@ -9623,9 +9619,9 @@ vue-cli-plugin-tailwind@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npmjs.org/vue-cli-plugin-tailwind/-/vue-cli-plugin-tailwind-2.0.6.tgz"
 
-vue-cli-plugin-vuetify@~2.4.3:
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-2.4.3.tgz"
+vue-cli-plugin-vuetify@~2.4.6:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-2.4.6.tgz#a4d24ead149eb6d69be05464d993088de199160e"
   dependencies:
     null-loader "^4.0.1"
     semver "^7.1.2"
