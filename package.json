@@ -33,7 +33,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.5",
     "cypress": "^7.7.0",
     "gridsome-plugin-tailwindcss": "^3.0.1",
-    "postcss-cli": "^9.0.1",
+    "postcss-cli": "^10.1.0",
     "vue-cli-plugin-tailwind": "~2.0.6",
     "vue-cli-plugin-vuetify": "~2.4.3"
   }
