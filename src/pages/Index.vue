@@ -16,7 +16,7 @@
 
         <div class="flex flex-col sm:flex-row justify-between items-center">
           <div><g-image src="../../static/vanessa-pashkoff.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Vanessa Pashkoff has been in the field of early childhood education for over 14 years. She has worn many hats during her time in the field including classroom teacher, After-school Program Director, trainer and facilitator and is passionate about family engagement, open-ended learning and anti-bias anti-racist teaching practices. Vanessa is also the Program Specialist at MAAEYC (Massachusetts Association for the Education of Young Children) in which she works to support MAAEYC programs, committees and events. Vanessa is passionate about early childhood education and is an advocate for play. Please contact <a href="mailto:vpashkoff@gmail.com">Vanessa Pashkoff</a> for more information and inquiries.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">Vanessa Pashkoff is an early childhood educator, trainer, and advocate for play. She has nearly two decades worth of experience in the field and currently works as an Instructional Classroom Coach and Adjunct Instructor. If you are interested in parent education, professional development for faculty and administration or just want to ask some questions, please contact <a href="mailto:vpashkoff@gmail.com">Vanessa Pashkoff</a> for more information.</div>
         </div>
       </div> <!-- end get-to-know me -->
     </div>
