@@ -1,6 +1,7 @@
 {
   "name": "alexsmith",
   "private": true,
+  "version": "0.0.1",
   "scripts": {
     "build": "gridsome build",
     "develop": "set NODE_OPTIONS=--openssl-legacy-provider && npm run develop_ssl",
