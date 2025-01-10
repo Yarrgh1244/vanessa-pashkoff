@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
-    "develop": "gridsome develop",
+    "develop": "set NODE_OPTIONS=--openssl-legacy-provider && npm run develop_ssl",
+    "develop_ssl": "gridsome develop",
     "explore": "gridsome explore",
     "test": "./node_modules/.bin/cypress open"
   },
@@ -17,6 +18,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "@gridsome/vue-remark": "^0.2.6",
     "@tailwindcss/postcss7-compat": "^2.2.17",
+    "alexsmith": "file:",
     "autoprefixer": "^9.8.6",
     "axios": "^0.21.2",
     "gridsome": "^0.7.23",
