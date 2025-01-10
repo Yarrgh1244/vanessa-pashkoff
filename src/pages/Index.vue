@@ -15,7 +15,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center">
-          <div><g-image src="../../static/vanessa-pashkoff-2.jpeg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><g-image src="../../static/vanessa-pashkoff-3.jpeg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">Vanessa Pashkoff is an early childhood educator, trainer, and advocate for play. She has nearly two decades worth of experience in the field and currently works as an Instructional Classroom Coach and Adjunct Instructor. If you are interested in parent education, professional development for faculty and administration or just want to ask some questions, please contact <a href="mailto:vpashkoff@gmail.com">Vanessa Pashkoff</a> for more information.</div>
         </div>
       </div> <!-- end get-to-know me -->
