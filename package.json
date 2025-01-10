@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "build": "gridsome build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && npm run build_ssl",
+    "build_ssl": "gridsome build",
     "develop": "set NODE_OPTIONS=--openssl-legacy-provider && npm run develop_ssl",
     "develop_ssl": "gridsome develop",
     "explore": "gridsome explore",
