@@ -76,7 +76,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Home'
+    title: 'Index'
   }
 }
 </script>
